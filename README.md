@@ -13,7 +13,7 @@ AI-driven vendor intelligence&nbsp; &middot; &nbsp;Trade-finance APIs&nbsp; &mid
 <br/>
 
 [![Website](https://img.shields.io/badge/baalvion.com-0A0E27?style=for-the-badge&logo=googlechrome&logoColor=5B8CFF)](https://baalvion.com)
-[![Group](https://img.shields.io/badge/Baalvion_Group-10183C?style=for-the-badge&logo=safari&logoColor=36E0C4)](https://baalviongroup.com)
+[![Baalvion Stack](https://img.shields.io/badge/Baalvion_Stack-10183C?style=for-the-badge&logo=stackshare&logoColor=36E0C4)](https://baalvionstack.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/baalvion)
 [![X](https://img.shields.io/badge/Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/baalvion)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baalvion)
@@ -42,38 +42,72 @@ trustworthy, and accessible to everyone.*
 
 ---
 
+## 🖼️ Product showcase
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://about.baalvion.com"><img src="assets/showcase/baalvion-os.png" alt="Baalvion Operating System" width="100%"/></a>
+      <br/><b>Baalvion OS</b><br/><sub>Global trade infrastructure</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://baalvionstack.com"><img src="assets/showcase/baalvion-stack.png" alt="Baalvion Stack" width="100%"/></a>
+      <br/><b>Baalvion Stack</b><br/><sub>Unified business operations</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://market.baalvion.com"><img src="assets/showcase/baalvion-finance.png" alt="Baalvion Finance" width="100%"/></a>
+      <br/><b>Baalvion Finance</b><br/><sub>Market research & analytics</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://imperialpedia.com"><img src="assets/showcase/imperialpedia.png" alt="Imperialpedia" width="100%"/></a>
+      <br/><b>Imperialpedia</b><br/><sub>AI knowledge infrastructure</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://controlthemarket.com"><img src="assets/showcase/controlthemarket.png" alt="ControlTheMarket" width="100%"/></a>
+      <br/><b>ControlTheMarket</b><br/><sub>Skill-based hiring marketplace</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://amarisemaisonavenue.com"><img src="assets/showcase/amarise.png" alt="Amarise Maison" width="100%"/></a>
+      <br/><b>Amarisé Maison</b><br/><sub>Luxury house</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🚀 Platforms &amp; Products
 
 ### Flagship platforms
 
 | Platform | What it does | Live |
 | :--- | :--- | :--- |
-| 🏛️ **Baalvion Group** | Corporate group &amp; holding company | [baalviongroup.com](https://baalviongroup.com) |
-| 🌍 **Global Trade OS** | Cross-border trade execution, finance, compliance &amp; logistics | [market.baalvion.com](https://market.baalvion.com) |
-| 🛰️ **BaalvionStack** | Enterprise proxy &amp; data network — secure access at scale | [baalvionstack.com](https://baalvionstack.com) |
-| 🔐 **Proxy by BaalvionStack** | Self-serve proxy &amp; data-network console | [proxy.baalvionstack.com](https://proxy.baalvionstack.com) |
+| 🌍 **Baalvion OS (BOS)** | Global trade infrastructure — execution, finance, compliance &amp; logistics across 198 markets | [about.baalvion.com](https://about.baalvion.com) |
+| 🛰️ **Baalvion Stack** | Enterprise unified business-operations platform | [baalvionstack.com](https://baalvionstack.com) |
+| 🔐 **Baalvion NetStack** | Enterprise proxy &amp; data network — secure access at scale | [proxy.baalvionstack.com](https://proxy.baalvionstack.com) |
+| 📈 **Baalvion Finance** | Crypto &amp; financial-market research and analytics | [market.baalvion.com](https://market.baalvion.com) |
 
 ### Marketplaces &amp; verticals
 
 | Product | What it does | Live |
 | :--- | :--- | :--- |
-| 🎯 **ControlTheMarket** | Competitive talent challenges &amp; skill-assessment marketplace | [controlthemarket.com](https://controlthemarket.com) |
-| 📈 **MarketUnderworld** | Market-intelligence &amp; trading platform | [marketunderworld.com](https://marketunderworld.com) |
-| 📚 **Imperialpedia** | Collaborative knowledge &amp; reference encyclopedia | [imperialpedia.com](https://imperialpedia.com) |
-| 💎 **Amarise Maison Avenue** | Luxury house — digital storefront &amp; brand experience | [amarisemaisonavenue.com](https://amarisemaisonavenue.com) |
-| ⚖️ **Law Elite Network** | Premium legal network &amp; advisory platform | [lawelitenetwork.com](https://lawelitenetwork.com) |
-| ⛏️ **Baalvion Mining** | Minerals &amp; resources division | [mining.baalvion.com](https://mining.baalvion.com) |
-| 🛍️ **BaalvionStack Shop** | Plans, add-ons &amp; commerce | [shop.baalvionstack.com](https://shop.baalvionstack.com) |
+| 📚 **Imperialpedia** | AI-powered knowledge &amp; financial-research infrastructure | [imperialpedia.com](https://imperialpedia.com) |
+| 🎯 **ControlTheMarket** | Skill-based hiring marketplace (SkillMatch Pro) | [controlthemarket.com](https://controlthemarket.com) |
+| 🔒 **Baalvion Insiders** | Private network for verified investors &amp; founders | [marketunderworld.com](https://marketunderworld.com) |
+| 💼 **TalentOS** | Global talent acquisition &amp; careers | [jobs.baalvion.com](https://jobs.baalvion.com) |
+| 🧾 **BillBana** | GST-ready billing, inventory &amp; accounting for Indian businesses | [shop.baalvionstack.com](https://shop.baalvionstack.com) |
+| 💎 **Amarisé Maison** | Luxury house — digital storefront &amp; brand experience | [amarisemaisonavenue.com](https://amarisemaisonavenue.com) |
+| ⛏️ **Baalvion Mining** | B2B mineral-trading marketplace | [mining.baalvion.com](https://mining.baalvion.com) |
 
 ### Corporate &amp; operations surfaces
 
 | Surface | Purpose | Live |
 | :--- | :--- | :--- |
-| 🏢 **About Baalvion** | Vision, businesses &amp; leadership | [about.baalvion.com](https://about.baalvion.com) |
-| 📊 **Investor Relations** | Press releases, news &amp; investor communications | [ir.baalvion.com](https://ir.baalvion.com) |
+| 🤝 **Baalvion Connect** | Brand &amp; creator collaboration marketplace | [connect.baalvion.com](https://connect.baalvion.com) |
 | 🧭 **Unified Dashboard** | Cross-business operations, HR &amp; analytics console | [dashboard.baalvion.com](https://dashboard.baalvion.com) |
-| 🤝 **Baalvion Connect** | Brand &amp; partner engagement | [connect.baalvion.com](https://connect.baalvion.com) |
-| 💼 **Careers** | Open roles across the group | [jobs.baalvion.com](https://jobs.baalvion.com) |
+| 📊 **Investor Relations** | Press releases, news &amp; investor communications | [ir.baalvion.com](https://ir.baalvion.com) |
+| 🏢 **Corporate** | Group home | [baalvion.com](https://baalvion.com) |
 
 ---
 
@@ -137,8 +171,8 @@ organized around bounded contexts, with shared infrastructure and one centralize
 
 | | | |
 | :---: | :---: | :---: |
-| **6** | **60+** | **17** |
-| bounded-context domains | domain microservices | live web properties |
+| **6** | **60+** | **15+** |
+| bounded-context domains | domain microservices | live digital products |
 | **Polyglot** | **Multi-tenant** | **Centralized** |
 | Node &amp; Java/Spring | Postgres RLS isolation | RS256 single sign-on |
 
