@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Baalvion Industries - Global B2B Trade Infrastructure">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070A1F"/>
+      <stop offset="45%" stop-color="#10183C"/>
+      <stop offset="100%" stop-color="#1E1147"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B8CFF"/>
+      <stop offset="50%" stop-color="#7C5CFF"/>
+      <stop offset="100%" stop-color="#36E0C4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#3A56C9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3A56C9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9FB4FF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <!-- decorative trade-route arcs -->
+  <g fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M -40 250 C 280 120, 520 360, 860 180 S 1180 120, 1260 200"/>
+    <path d="M -40 110 C 240 200, 560 40, 900 150 S 1180 240, 1260 150" stroke-opacity="0.18"/>
+  </g>
+  <g fill="#36E0C4">
+    <circle cx="280" cy="173" r="3.5"/><circle cx="860" cy="180" r="3.5"/><circle cx="900" cy="150" r="3"/>
+  </g>
+
+  <!-- monogram mark -->
+  <g transform="translate(96,160)">
+    <rect x="-46" y="-46" width="92" height="92" rx="20" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <text x="0" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+  </g>
+
+  <!-- wordmark -->
+  <text x="190" y="150" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="6" fill="#FFFFFF">BAALVION</text>
+  <text x="193" y="196" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" letter-spacing="7" fill="#9FB4FF">INDUSTRIES PRIVATE LIMITED</text>
+
+  <!-- accent underline -->
+  <rect x="194" y="214" width="430" height="4" rx="2" fill="url(#accent)"/>
+
+  <!-- tagline -->
+  <text x="194" y="256" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#C8D2F0">Next-generation global B2B trade infrastructure</text>
+  <text x="194" y="286" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" letter-spacing="2" fill="#7E8AB8">AI VENDOR INTELLIGENCE &#160;&#8226;&#160; TRADE-FINANCE APIs &#160;&#8226;&#160; COMPLIANCE AUTOMATION</text>
+</svg>
