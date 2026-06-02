@@ -47,8 +47,8 @@ trustworthy, and accessible to everyone.*
 <table>
   <tr>
     <td width="33%" align="center" valign="top">
-      <a href="https://about.baalvion.com"><img src="assets/showcase/baalvion-os.png" alt="Baalvion Operating System" width="100%"/></a>
-      <br/><b>Baalvion OS</b><br/><sub>Global trade infrastructure</sub>
+      <a href="https://baalvion.com"><img src="assets/showcase/baalvion-os.png" alt="Baalvion - Global Trade OS" width="100%"/></a>
+      <br/><b>Baalvion</b><br/><sub>The global trade operating system</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <a href="https://baalvionstack.com"><img src="assets/showcase/baalvion-stack.png" alt="Baalvion Stack" width="100%"/></a>
