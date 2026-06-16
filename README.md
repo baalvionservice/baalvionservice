@@ -1,14 +1,15 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Baalvion Industries Private Limited" width="100%" />
+  <img src="./assets/banner.svg" alt="Baalvion Industries Private Limited — the global trade operating system" width="100%" />
 </div>
 
 <div align="center">
 
 <br/>
 
-**Building next-generation global B2B trade infrastructure**
+### Engineering the digital backbone of global commerce
 
-AI-driven vendor intelligence&nbsp; &middot; &nbsp;Trade-finance APIs&nbsp; &middot; &nbsp;Compliance automation
+**One platform that connects buyers, suppliers, financiers, and regulators across borders** — turning
+fragmented, paperwork-heavy trade into a single programmable, compliant, and intelligent system.
 
 <br/>
 
@@ -19,9 +20,20 @@ AI-driven vendor intelligence&nbsp; &middot; &nbsp;Trade-finance APIs&nbsp; &mid
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@baalvion)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@baalvion)
 
-![Location](https://img.shields.io/badge/Headquarters-India-1E1147?style=flat-square)
+![Headquarters](https://img.shields.io/badge/Headquarters-India-1E1147?style=flat-square)
 ![CIN](https://img.shields.io/badge/CIN-U43121OD2025PTC048479-1E1147?style=flat-square)
+![Markets](https://img.shields.io/badge/Markets-198-4F46E5?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Actively_building-36E0C4?style=flat-square)
+
+<sub>
+  <a href="#-who-we-are">Who we are</a> &nbsp;·&nbsp;
+  <a href="#%EF%B8%8F-product-showcase">Showcase</a> &nbsp;·&nbsp;
+  <a href="#-platforms--products">Platforms</a> &nbsp;·&nbsp;
+  <a href="#%EF%B8%8F-platform-architecture">Architecture</a> &nbsp;·&nbsp;
+  <a href="#-explore-the-source">Repositories</a> &nbsp;·&nbsp;
+  <a href="#-by-the-numbers">By the numbers</a> &nbsp;·&nbsp;
+  <a href="#-work-with-us">Work with us</a>
+</sub>
 
 </div>
 
@@ -35,10 +47,38 @@ suppliers, financiers, and regulators** across borders — turning fragmented, p
 into a single programmable, compliant, and intelligent system.
 
 From **trade execution and finance** to **vendor intelligence, compliance automation, and
-infrastructure-as-a-service**, our products share one mission: *make global B2B trade fast,
+infrastructure-as-a-service**, every product we ship shares one mission: *make global B2B trade fast,
 trustworthy, and accessible to everyone.*
 
-> One identity. One platform. Every market.
+<div align="center">
+
+> ### One identity. One platform. Every market.
+
+</div>
+
+---
+
+## 🧭 What we build
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🌍 Trade, made programmable</h4>
+      <sub>Execution, RFQ &amp; quotes, logistics, customs, and trade finance — wired into a single
+      operating system instead of a hundred disconnected portals and PDFs.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧠 Intelligence at every step</h4>
+      <sub>AI vendor intelligence, risk and compliance automation, and document understanding that
+      turn raw trade data into decisions traders and regulators can trust.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🏛️ Infrastructure for everyone</h4>
+      <sub>Identity, payments, knowledge, and operations delivered as governed platform services —
+      so a new market or product is a configuration, not a rebuild.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -56,7 +96,7 @@ trustworthy, and accessible to everyone.*
     </td>
     <td width="33%" align="center" valign="top">
       <a href="https://market.baalvion.com"><img src="assets/showcase/baalvion-finance.png" alt="Baalvion Finance" width="100%"/></a>
-      <br/><b>Baalvion Finance</b><br/><sub>Market research & analytics</sub>
+      <br/><b>Baalvion Finance</b><br/><sub>Market research &amp; analytics</sub>
     </td>
   </tr>
   <tr>
@@ -77,7 +117,7 @@ trustworthy, and accessible to everyone.*
 
 ---
 
-## 🚀 Platforms &amp; Products
+## 🚀 Platforms &amp; products
 
 ### Flagship platforms
 
@@ -133,12 +173,36 @@ organized around bounded contexts, with shared infrastructure and one centralize
               60+ domain microservices · event-driven (Redis Streams) · multi-tenant (Postgres RLS)
 ```
 
-- **Centralized auth** — one RS256 issuer, no hand-rolled JWT, SSO across every property
-- **Federated gateway** — a single edge fronting independent domain services
-- **Multi-tenancy** — Postgres Row-Level Security with fail-closed tenant isolation
-- **Hybrid RBAC + ABAC** — platform → country → organization authorization hierarchy
-- **Event-driven** — durable Redis Streams event bus with tamper-evident audit trails
-- **Polyglot by design** — TypeScript/Node for platform &amp; product, Java/Spring Boot for financial-grade services
+| Pillar | How it works |
+| :--- | :--- |
+| 🔐 **Centralized auth** | One RS256 issuer, no hand-rolled JWT, single sign-on across every property |
+| 🌉 **Federated gateway** | A single governed edge fronting independent domain services and BFFs |
+| 🏢 **Multi-tenancy** | Postgres Row-Level Security with fail-closed tenant isolation |
+| 🛡️ **Hybrid RBAC + ABAC** | Platform → country → organization authorization hierarchy |
+| 📡 **Event-driven** | Durable Redis Streams event bus with tamper-evident audit trails |
+| 🧩 **Polyglot by design** | TypeScript/Node for platform &amp; product, Java/Spring Boot for financial-grade services |
+
+---
+
+## 📦 Explore the source
+
+We publish much of the platform in the open. These are the public repositories behind the products above.
+
+| Repository | Powers | |
+| :--- | :--- | :--- |
+| [**Baalvion-Project-Infra**](https://github.com/baalvionservice/Baalvion-Project-Infra) | Enterprise platform monorepo — identity, gateway, RBAC, federated services | `monorepo` |
+| [**Global-Trade-Infrastructure**](https://github.com/baalvionservice/Global-Trade-Infrastructure) | Baalvion OS — cross-border trade, finance, compliance &amp; logistics (Next.js 15) | `platform` |
+| [**trade-service**](https://github.com/baalvionservice/trade-service) | Trade execution, RFQ/quotes, logistics &amp; trade-finance API | `service` |
+| [**Proxy-BaalvionStack**](https://github.com/baalvionservice/Proxy-BaalvionStack) | NetStack — enterprise proxy &amp; data-network platform | `platform` |
+| [**company-unified-Dashboard**](https://github.com/baalvionservice/company-unified-Dashboard) | Cross-business operations, HR &amp; analytics console | `app` |
+| [**Imperialpedia**](https://github.com/baalvionservice/Imperialpedia) | AI knowledge &amp; reference encyclopedia | `app` |
+| [**controlthemarket**](https://github.com/baalvionservice/controlthemarket) | Skill-based hiring marketplace | `app` |
+| [**AmariseMaisonAvenue**](https://github.com/baalvionservice/AmariseMaisonAvenue) | Amarisé Maison — luxury digital storefront | `app` |
+| [**Baalvion-Jobs-Portal**](https://github.com/baalvionservice/Baalvion-Jobs-Portal) | TalentOS — careers &amp; applicant experience | `app` |
+| [**brand-connector**](https://github.com/baalvionservice/brand-connector) | Baalvion Connect — brand &amp; partner engagement | `app` |
+| [**about-baalvion**](https://github.com/baalvionservice/about-baalvion) | Corporate site — vision, businesses &amp; leadership | `app` |
+| [**IR-Baalvion**](https://github.com/baalvionservice/IR-Baalvion) | Investor relations — press, news &amp; communications | `app` |
+| [**portfolio**](https://github.com/baalvionservice/portfolio) | Corporate product portfolio · [live](https://baalvionservice.github.io/portfolio) | `showcase` |
 
 ---
 
@@ -173,8 +237,10 @@ organized around bounded contexts, with shared infrastructure and one centralize
 | :---: | :---: | :---: |
 | **6** | **60+** | **15+** |
 | bounded-context domains | domain microservices | live digital products |
-| **Polyglot** | **Multi-tenant** | **Centralized** |
-| Node &amp; Java/Spring | Postgres RLS isolation | RS256 single sign-on |
+| **198** | **Multi-tenant** | **Centralized** |
+| markets in scope | Postgres RLS isolation | RS256 single sign-on |
+| **Polyglot** | **Event-driven** | **Open** |
+| Node &amp; Java/Spring | durable Redis Streams bus | source published for transparency |
 
 </div>
 
@@ -193,5 +259,9 @@ organized around bounded contexts, with shared infrastructure and one centralize
 
 <sub>© 2025–2026 <b>Baalvion Industries Private Limited</b> &middot; CIN U43121OD2025PTC048479 &middot; India</sub><br/>
 <sub>Source published for transparency. All rights reserved unless a repository states otherwise.</sub>
+
+<br/><br/>
+
+<sub><b>One identity · One platform · Every market.</b></sub>
 
 </div>

@@ -1,51 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Baalvion Industries - Global B2B Trade Infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Baalvion Industries Private Limited — the global trade operating system">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070A1F"/>
-      <stop offset="45%" stop-color="#10183C"/>
-      <stop offset="100%" stop-color="#1E1147"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070A18"/>
+      <stop offset="0.52" stop-color="#0B1230"/>
+      <stop offset="1" stop-color="#0A1A3F"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#5B8CFF"/>
-      <stop offset="50%" stop-color="#7C5CFF"/>
-      <stop offset="100%" stop-color="#36E0C4"/>
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
-    <radialGradient id="glow" cx="78%" cy="22%" r="60%">
-      <stop offset="0%" stop-color="#3A56C9" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#3A56C9" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0.80" cy="0.26" r="0.70" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4F46E5" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#070A18" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#9FB4FF" stroke-opacity="0.06" stroke-width="1"/>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#9FB4FF" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect width="1200" height="320" fill="url(#glow)"/>
+  <!-- Card -->
+  <rect width="1280" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="26" fill="url(#grid)"/>
+  <rect width="1280" height="340" rx="26" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="338.5" rx="25.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.5"/>
 
-  <!-- decorative trade-route arcs -->
-  <g fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1.5">
-    <path d="M -40 250 C 280 120, 520 360, 860 180 S 1180 120, 1260 200"/>
-    <path d="M -40 110 C 240 200, 560 40, 900 150 S 1180 240, 1260 150" stroke-opacity="0.18"/>
+  <!-- Decorative trade-route arcs -->
+  <g fill="none" stroke="url(#accent)" stroke-opacity="0.30" stroke-width="1.5">
+    <path d="M -40 262 C 300 130, 560 382, 920 196 S 1240 132, 1320 214"/>
+    <path d="M -40 118 C 260 214, 600 42, 960 160 S 1240 256, 1320 160" stroke-opacity="0.16"/>
   </g>
-  <g fill="#36E0C4">
-    <circle cx="280" cy="173" r="3.5"/><circle cx="860" cy="180" r="3.5"/><circle cx="900" cy="150" r="3"/>
-  </g>
-
-  <!-- monogram mark -->
-  <g transform="translate(96,160)">
-    <rect x="-46" y="-46" width="92" height="92" rx="20" fill="none" stroke="url(#accent)" stroke-width="3"/>
-    <text x="0" y="20" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+  <g fill="#22D3EE">
+    <circle cx="300" cy="183" r="3.2"/><circle cx="920" cy="196" r="3.2"/><circle cx="600" cy="98" r="2.6"/>
   </g>
 
-  <!-- wordmark -->
-  <text x="190" y="150" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="6" fill="#FFFFFF">BAALVION</text>
-  <text x="193" y="196" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600" letter-spacing="7" fill="#9FB4FF">INDUSTRIES PRIVATE LIMITED</text>
+  <!-- Federated-network mark (centralized core + satellites) -->
+  <g transform="translate(1066,170)" opacity="0.96">
+    <circle r="132" fill="none" stroke="#22D3EE" stroke-opacity="0.10" stroke-width="1"/>
+    <circle r="86" fill="none" stroke="#6366F1" stroke-opacity="0.20" stroke-width="1"/>
+    <g stroke="url(#accent)" stroke-opacity="0.55" stroke-width="1.5">
+      <line x1="0" y1="0" x2="0" y2="-86"/>
+      <line x1="0" y1="0" x2="82" y2="27"/>
+      <line x1="0" y1="0" x2="51" y2="70"/>
+      <line x1="0" y1="0" x2="-51" y2="70"/>
+      <line x1="0" y1="0" x2="-82" y2="27"/>
+    </g>
+    <g fill="#0B1230" stroke="url(#accent)" stroke-width="2">
+      <circle cx="0" cy="-86" r="8"/>
+      <circle cx="82" cy="27" r="8"/>
+      <circle cx="51" cy="70" r="8"/>
+      <circle cx="-51" cy="70" r="8"/>
+      <circle cx="-82" cy="27" r="8"/>
+    </g>
+    <g fill="#22D3EE">
+      <circle cx="0" cy="-86" r="3"/>
+      <circle cx="82" cy="27" r="3"/>
+      <circle cx="51" cy="70" r="3"/>
+      <circle cx="-51" cy="70" r="3"/>
+      <circle cx="-82" cy="27" r="3"/>
+    </g>
+    <circle r="32" fill="#22D3EE" fill-opacity="0.12"/>
+    <circle r="17" fill="url(#core)"/>
+  </g>
 
-  <!-- accent underline -->
-  <rect x="194" y="214" width="430" height="4" rx="2" fill="url(#accent)"/>
+  <!-- Monogram -->
+  <g transform="translate(112,150)">
+    <rect x="-48" y="-48" width="96" height="96" rx="22" fill="none" stroke="url(#accent)" stroke-width="3"/>
+    <text x="0" y="22" font-family="Georgia,'Times New Roman',serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle">B</text>
+  </g>
 
-  <!-- tagline -->
-  <text x="194" y="256" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#C8D2F0">Next-generation global B2B trade infrastructure</text>
-  <text x="194" y="286" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" letter-spacing="2" fill="#7E8AB8">AI VENDOR INTELLIGENCE &#160;&#8226;&#160; TRADE-FINANCE APIs &#160;&#8226;&#160; COMPLIANCE AUTOMATION</text>
+  <!-- Eyebrow -->
+  <text x="190" y="86" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3.6" fill="#22D3EE">BAALVION&#160;&#160;INDUSTRIES&#160;&#160;PRIVATE&#160;&#160;LIMITED</text>
+
+  <!-- Wordmark -->
+  <text x="187" y="166" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="5" fill="#FFFFFF">BAALVION</text>
+
+  <!-- Accent underline -->
+  <rect x="190" y="186" width="150" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <!-- Tagline -->
+  <text x="190" y="226" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="500" fill="#E2E8F0">The global trade operating system</text>
+  <text x="190" y="258" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" font-weight="400" letter-spacing="1.5" fill="#8B95B2">AI vendor intelligence &#160;&#8226;&#160; trade-finance APIs &#160;&#8226;&#160; compliance automation &#160;&#8226;&#160; one identity</text>
+
+  <!-- Footer strip -->
+  <text x="190" y="298" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="2.5" fill="#6B78A6">ONE IDENTITY &#160;&#183;&#160; ONE PLATFORM &#160;&#183;&#160; EVERY MARKET</text>
 </svg>
